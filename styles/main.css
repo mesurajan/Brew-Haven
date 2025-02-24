@@ -1,0 +1,123 @@
+body{
+   margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: "Georgia", "Times New Roman", serif;
+    padding-top: 80px;
+  
+    background-color: bisque;
+    margin-bottom: 120px;
+    
+}
+.body-container{
+   
+    max-width: 1400px;
+    width: 90%;
+    margin: auto;
+    
+}
+.Hero-Section{
+    margin-top: 50px;
+    display: flex;
+    height: 200px;
+
+}
+/* Assuming your navbar height is around 80px */
+section {
+    padding-top: 80px; /* Adjust according to the actual height of your navbar */
+    margin-top: -80px; /* Pulls the section up so that it aligns correctly */
+}
+
+.logo{
+    margin-top: 25px;
+    max-width: 100px;
+    border-radius: 50%;
+    height: auto;
+    
+    
+}
+.logo:hover{
+    transition: all0.4s ease-in-out;
+    box-shadow: 0px 0px 10px black;
+    transform: scale(1.2);
+}
+
+
+.hero-section-element{
+    display: inline-block;
+    padding: 20px;
+   
+}
+.hero-section-element p{
+  
+   padding-top: 20px;
+   padding-right: 120px;
+   text-align: justify;
+   height: auto;
+}
+.navbar{
+    background-color: aqua;
+    position: fixed;  /* Fixes the navbar at the top */
+    top: 0;           /* Aligns the navbar at the top */
+    left: 0;          /* Ensures it stays at the left edge */
+    width: 100%;      /* Ensures the navbar takes full width */
+    z-index: 1000;    /* Ensures it stays above other elements */
+   
+
+}
+.navbar ul{
+    margin-top: 0;
+    list-style: none;
+    display: flex;
+    gap:30px;
+    justify-content: right;
+    margin-right: 100px;
+    padding-top: 30px;
+    padding-bottom:30px ;
+   
+}
+.navbar ul a{
+    text-decoration: none;
+    
+}
+
+.navbar ul a:hover{
+   cursor: pointer;
+   transition: scale(1.06);
+   transition: all 0.4s ease-in-out;
+   box-shadow: 0px 0px 10px black ;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   padding-left: 10px;
+   padding-right: 10px;
+   border-radius: 4px;
+
+}
+
+.cafe-preview{
+    display: flex;
+    justify-content: left;
+  
+
+}
+.home-image{
+    
+    display: inline-block;
+  
+    
+}
+.cafe-preview img{ 
+    max-width:600px;
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    padding-top: 15px;
+    border-radius: 25px;
+    
+        background-color: transparent; /* Ensure background is transparent */
+    
+     /* Set rounded corners */
+  
+    
+}
+
